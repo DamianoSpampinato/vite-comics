@@ -25,7 +25,12 @@ export default {
         
         
         }
-    }
+    },
+    methods: {
+            getImageUrl(name) {
+                return new URL(`${name}`, import.meta.url).href;
+            }
+        }
 }
     
 </script>
@@ -37,7 +42,7 @@ export default {
             <div v-for="card in cardsArray" class="col py-5">
                 <div class="button d-flex">
                     <div class="img-container">
-                        <img src="../assets/img/buy-dc-power-visa.svg" alt="">
+                        <img :src="getImageUrl(card.image)" alt="">
                     </div>
                     <div class="text">{{ card.title.toUpperCase() }}</div>
                     
