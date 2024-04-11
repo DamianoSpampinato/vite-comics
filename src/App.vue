@@ -1,4 +1,5 @@
 <script>
+
 import AppHeader from './components/AppHeader.vue';
 import AppMainContent from './components/AppMainContent.vue';
 import AppMainCards from './components/AppMainCards.vue';
@@ -13,7 +14,6 @@ export default{
     }
 }
 
-  
 </script>
 
 <template>
@@ -24,6 +24,6 @@ export default{
 
 </template>
 
-<style scoped>
-
+<style lang="scss">
+@use './style/generic' as *;
 </style>
