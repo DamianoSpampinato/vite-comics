@@ -1,9 +1,9 @@
 <script setup>
-
+import AppHeader from './components/AppHeader.vue';
 </script>
 
 <template>
-<h1 class="bg-primary">ciao</h1>
+<AppHeader></AppHeader>
 </template>
 
 <style scoped>
