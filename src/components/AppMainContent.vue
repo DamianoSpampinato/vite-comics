@@ -7,7 +7,7 @@ export default {
 
 <template>
 <section>
-    <div class="container">
+    <div class="container p-4">
         <div class="content">------contento qui</div>
     </div>
 </section>

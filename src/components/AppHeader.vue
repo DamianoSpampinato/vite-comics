@@ -51,7 +51,7 @@ export default{
 </script>
 <template>
     <section class="header">
-        <header class="p-3">
+        <header class="p-2">
             <div class="container d-flex justify-content-between align-items-center">
                 <img src="../assets/img/dc-logo.png" alt="">
                 <nav class="d-flex">
