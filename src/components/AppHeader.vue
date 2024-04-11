@@ -50,7 +50,7 @@ export default{
 }
 </script>
 <template>
-    <section>
+    <section class="header">
         <header class="p-3">
             <div class="container d-flex justify-content-between align-items-center">
                 <img src="../assets/img/dc-logo.png" alt="">
