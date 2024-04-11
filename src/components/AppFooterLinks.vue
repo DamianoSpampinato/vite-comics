@@ -62,7 +62,7 @@ export default {
                     
                 </div>
             </div>
-            <div class="col-8 d-flex"><img src="../assets/img/dc-logo-bg.png" alt=""></div>
+            <div class="col-8 d-flex justify-content-end align-items-center "><img class="" src="../assets/img/dc-logo-bg.png" alt=""></div>
         </div>
     </div>
 </section>
@@ -94,8 +94,8 @@ section{
         overflow-y: hidden;
     
         img{
-            height: 120%;
-            transform: translateY(-10%);
+            height: 140%;
+           
             
          
         }
