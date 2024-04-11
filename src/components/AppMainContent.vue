@@ -8,7 +8,7 @@ export default {
 <template>
 <section>
     <div class="container">
-        <p>-----Contento qui</p>
+        <div class="content">------contento qui</div>
     </div>
 </section>
 </template>
@@ -17,7 +17,7 @@ export default {
 @use '../style/partials/variables' as *;
 section{
     background-color: $brand-secondary;
-    p{
+    .content{
         color: wheat;
     }
 }

@@ -39,8 +39,8 @@ export default {
 <section id="card-section" class="p-3">
     <div class="container">
         <div class="row">
-            <div v-for="card in cardsArray" class="col py-5">
-                <div class="button d-flex">
+            <div v-for="card in cardsArray" class="col py-4">
+                <div class="button d-flex justify-content-center align-items-center">
                     <div class="img-container">
                         <img :src="getImageUrl(card.image)" alt="">
                     </div>
@@ -59,11 +59,12 @@ export default {
 section{
     background-color: $brand-primary;
         .button{
+            height: 100px;
             .img-container{
-                width: 50px;
+                height: 50%;
             }
             img{
-                width: 100%;
+                height: 100%;
             }
         }
     
