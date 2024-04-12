@@ -1,14 +1,21 @@
 <script>
+import AppProplist from './AppProplist.vue';
+
 export default {
     name: 'AppMainContent',
-    
+    components: {
+        AppProplist
+    },
 }
 </script>
 
 <template>
 <section>
     <div class="container p-4">
-        <div class="content">------contento qui</div>
+        <span class="top-left p-2 px-3">CURRENT SERIES</span>
+        
+        <AppProplist></AppProplist>
+        <span class="p-2 px-3 bottom-center">LOAD MORE</span>
     </div>
 </section>
 </template>
@@ -17,9 +24,28 @@ export default {
 @use '../style/partials/variables' as *;
 section{
     background-color: $brand-secondary;
-    .content{
-        color: wheat;
+    .container{
+        position: relative;
     }
+        span{
+            &.top-left{
+
+                position: absolute;
+                top:0;
+                left: 0;
+                transform: translateY(-50%);
+            }
+            &.bottom-center{
+                position: absolute;
+                bottom:10px;
+                left: 50%;
+                transform: translateX(-50%);
+            }
+            background-color: $brand-primary;
+            color: white;
+            font-weight: bold;
+        
+        }
 }
 
 

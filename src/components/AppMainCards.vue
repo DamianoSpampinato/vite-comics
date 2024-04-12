@@ -37,7 +37,7 @@ export default {
 
 <template>
 <section id="card-section" class="p-3">
-    <div class="container">
+  
         <div class="row">
             <div v-for="card in cardsArray" class="col py-3">
                 <div class="button d-flex justify-content-center align-items-center">
@@ -50,7 +50,7 @@ export default {
             </div>
         </div>
         
-    </div>
+   
 </section>
 </template>
 
