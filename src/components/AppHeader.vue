@@ -51,12 +51,12 @@ export default{
 </script>
 <template>
     <section class="header">
-        <header class="p-2">
+        <header class="">
             <div class="container d-flex justify-content-between align-items-center">
                 <img src="../assets/img/dc-logo.png" alt="">
                 <nav class="d-flex">
 
-                    <a href="#" :class="{'active': link.status}" v-for="link in links">
+                    <a href="#" class="py-5" :class="{'active': link.status}" v-for="link in links">
                         {{ link.text.toUpperCase() }}
                     </a>
                 </nav>
@@ -73,7 +73,7 @@ export default{
 @use '../style/partials/variables' as *;
 nav{
     a{
-        margin: 5px;
+        margin: 0 5px;
         text-decoration: none;
         color: black;
         

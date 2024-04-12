@@ -62,7 +62,7 @@ export default {
                     
                 </div>
             </div>
-            <div class="col-8 d-flex justify-content-end align-items-center "><img class="" src="../assets/img/dc-logo-bg.png" alt=""></div>
+            <div class="col-8 d-flex justify-content-end align-items-center "></div>
         </div>
     </div>
 </section>
@@ -72,11 +72,11 @@ export default {
 section{
     background-image: url('../assets/img/footer-bg.jpg');
     background-size: cover;
-    height: 500px;
+
     .container{
-        height: 100%;
+
         >.row{
-            height: 100%;
+
             .col-4{
 
                
@@ -89,16 +89,12 @@ section{
         }
     }
     .col-8{
-        height: 100%;
+    
     
         overflow-y: hidden;
-    
-        img{
-            height: 140%;
-           
-            
-         
-        }
+    background-image: url('../assets/img/dc-logo-bg.png');
+        background-position: right;
+        background-repeat: no-repeat;
 
     }
 }
