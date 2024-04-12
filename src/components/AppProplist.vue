@@ -107,12 +107,9 @@ export default {
 
 .products-list {
     padding: 20px;
-    background-image: url('../assets/img/fondo-pag-speciali.jpg');
+  
 
-    h2 {
-        text-align: center;
-        color: $brand-primary;
-    }
+ 
 
     .products-cards-wrapper {
         display: flex;
